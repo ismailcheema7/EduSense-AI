@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+sqlmodel  # or sqlalchemy + pydantic
+psycopg2-binary  # if Postgres
+passlib[bcrypt]
+pyjwt
+python-multipart
+google-cloud-storage
+httpx
+reportlab  # or weasyprint
+langchain
+langgraph
+openai
