@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* App shell background and subtle gradient */
+.app-bg {
+  background: linear-gradient(180deg, theme('colors.brand.25'), white 60%);
+}
+
+/* Focus ring */
+:root { --ring: theme('colors.brand.400'); }
+/* use :focus-visible for better UX */
+*:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px color-mix(in oklab, var(--ring) 45%, transparent);
+}
+/* Fallback if color-mix is not supported */
+@supports not (color: color-mix(in oklab, white, black)) {
+  *:focus-visible { box-shadow: 0 0 0 3px var(--ring); }
+}
+
+/* Nice scrollbars */
+* { scrollbar-width: thin; scrollbar-color: theme('colors.brand.300') transparent; }
+*::-webkit-scrollbar { height: 10px; width: 10px; }
+*::-webkit-scrollbar-thumb { background: theme('colors.brand.300'); border-radius: 999px; }
