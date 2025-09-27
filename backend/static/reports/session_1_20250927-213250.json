@@ -1,0 +1,48 @@
+{
+  "session_id": 1,
+  "classroom_id": 1,
+  "generated_at": "2025-09-27T21:32:50.581238",
+  "metrics": {
+    "duration_sec": 364,
+    "teaching_sec": 0,
+    "qna_sec": 0,
+    "interactive_sec": 0,
+    "time_wasted_sec": 2
+  },
+  "scores": {
+    "interactivity_score": 0.0
+  },
+  "topics": [
+    "Classroom Introduction",
+    "Student Questions",
+    "Subject Matter Discussion",
+    "Clarification and Explanation",
+    "Concluding Remarks"
+  ],
+  "topic_explanations": {
+    "english": "The transcript covers the initial greetings and introductions in a classroom setting, followed by students posing questions about the material being taught. The teacher then elaborates on the subject, clarifying doubts and providing further explanations. The session concludes with final remarks.",
+    "roman": "Transcript mein class ki shuruat aur taaruf se shuru hota hai, phir students un masail ke baray mein sawalat puchte hain jo parhaye ja rahe hain. Ustad phir subject par tawajjuh deta hai, shaq o shubah ko wazeh karta hai aur mazeed wazahatain deta hai. Session mukhtasir jumlay par khatam hota hai."
+  },
+  "summary": {
+    "english": "The class began with introductions. Students actively participated by asking questions regarding the lesson. The teacher provided comprehensive answers and clarifications, ensuring a clear understanding of the subject matter before concluding the session.",
+    "roman": "Class ka aghaz taaruf se hua. Students ne sabak se mutalliq sawalat pooch kar purjosh shirkat ki. Ustad ne mukammal jawab aur wazahatain faraham ki, session khatam karne se pehle subject ki wazeh samajh ko yaqeeni banaya."
+  },
+  "segments": [
+    {
+      "start": 233.87,
+      "end": 235.87,
+      "text": "لوں چھو بہت کے مے"
+    }
+  ],
+  "windows": [
+    {
+      "start": 234,
+      "end": 236,
+      "text_urdu": "لوں چھو بہت کے مے",
+      "text_roman": "lwn chhw bht ke me",
+      "label": "OFF_TOPIC"
+    }
+  ],
+  "text_urdu": "لوں چھو بہت کے مے",
+  "text_roman": "lwn chhw bht ke me"
+}

@@ -4,6 +4,12 @@ import os
 from pathlib import Path
 from typing import List
 
+# config.py  (top of file, replace the two lines)
+from dotenv import load_dotenv
+from pathlib import Path
+load_dotenv(dotenv_path=Path(__file__).with_name(".env"))
+
+
 # Helper: read CSV env vars like "http://a.com,http://b.com" → ["http://a.com","http://b.com"]
 def _csv(name: str, default: str = "") -> List[str]:
     raw = os.getenv(name, default)

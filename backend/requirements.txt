@@ -11,3 +11,5 @@ langchain
 langgraph
 openai
 psycopg2-binary
+faster-whisper
+google-generativeai

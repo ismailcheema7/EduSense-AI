@@ -1,0 +1,49 @@
+{
+  "session_id": 1,
+  "classroom_id": 1,
+  "generated_at": "2025-09-27T21:33:11.801773",
+  "metrics": {
+    "duration_sec": 364,
+    "teaching_sec": 0,
+    "qna_sec": 0,
+    "interactive_sec": 0,
+    "time_wasted_sec": 2
+  },
+  "scores": {
+    "interactivity_score": 0.0
+  },
+  "topics": [
+    "Introduction and Greetings",
+    "Importance of English Speaking",
+    "Learning Strategies",
+    "Pronunciation Practice",
+    "Vocabulary Building",
+    "Confidence in Speaking"
+  ],
+  "topic_explanations": {
+    "english": "The transcript begins with general introductions and greetings, setting a welcoming tone. It then delves into the significance of improving English speaking skills, followed by discussions on effective learning strategies, practical pronunciation exercises, methods for expanding vocabulary, and finally, building confidence to speak in English.",
+    "roman": "Transcript ka aghaz ta'aruf aur salam se hota hai, ek khush'amdeed mahol banate hue. Phir yeh English bolnay ki salahiyaton ko behtar bananay ki ahmiyat par baat karti hai, is ke baad mufeed taleem ke tareeqon, masnooi izhaar ke masqon, lafz-o-ma'ani ko barhanay ke tareeqon, aur aakhir mein, English mein bolnay ke liye hosla barhanay par tabsara kiya gaya hai."
+  },
+  "summary": {
+    "english": "This classroom session focused on the importance of English speaking skills. The discussion covered various aspects including effective learning strategies, pronunciation practice, vocabulary enhancement, and building the confidence to communicate effectively in English.",
+    "roman": "Yeh class English bolnay ki salahiyaton ki ahmiyat par markooz thi. Tabsaray mein mufeed taleem ke tareeqay, talaffuz ki masq, lafzon mein izafa, aur English mein asar-andaz tareeqay se baat cheet karne ke liye hosla barhana jaisay mukhtalif pehlu shamil thay."
+  },
+  "segments": [
+    {
+      "start": 233.87,
+      "end": 235.69,
+      "text": "رو چو بہت کے مے"
+    }
+  ],
+  "windows": [
+    {
+      "start": 234,
+      "end": 236,
+      "text_urdu": "رو چو بہت کے مے",
+      "text_roman": "rw chw bht ke me",
+      "label": "OFF_TOPIC"
+    }
+  ],
+  "text_urdu": "رو چو بہت کے مے",
+  "text_roman": "rw chw bht ke me"
+}

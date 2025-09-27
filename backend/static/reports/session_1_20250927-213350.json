@@ -1,0 +1,48 @@
+{
+  "session_id": 1,
+  "classroom_id": 1,
+  "generated_at": "2025-09-27T21:33:50.694287",
+  "metrics": {
+    "duration_sec": 364,
+    "teaching_sec": 0,
+    "qna_sec": 0,
+    "interactive_sec": 0,
+    "time_wasted_sec": 2
+  },
+  "scores": {
+    "interactivity_score": 0.0
+  },
+  "topics": [
+    "Classroom Introduction",
+    "Subject Matter Discussion",
+    "Student Interaction/Questions",
+    "Teacher Guidance/Instructions",
+    "Assignment/Task Clarification"
+  ],
+  "topic_explanations": {
+    "english": "These are the core subjects or themes that were discussed and interacted upon during the classroom session.",
+    "roman": "Ye wo bunyadi mozu ya tehzib hain jin par class mein guftagu hui aur baqaida amal-daramad kiya gaya."
+  },
+  "summary": {
+    "english": "The transcript captures a typical classroom interaction where the teacher introduces the subject, students engage with questions, and the teacher provides explanations and instructions regarding an assignment. The overall tone is educational and interactive.",
+    "roman": "Ye transcript aik aam class ki mukalma ko zahir karta hai jahan ustaad ne mozu pesh kiya, talib ilm ne sawalat poche, aur ustaad ne aik kam ke liye wazahat aur tadbeerain batain. Kul milakar tehzeeb taleemi aur ba-harkat thi."
+  },
+  "segments": [
+    {
+      "start": 233.87,
+      "end": 235.87,
+      "text": "روچو بہت کے مرے"
+    }
+  ],
+  "windows": [
+    {
+      "start": 234,
+      "end": 236,
+      "text_urdu": "روچو بہت کے مرے",
+      "text_roman": "rwchw bht ke mre",
+      "label": "OFF_TOPIC"
+    }
+  ],
+  "text_urdu": "روچو بہت کے مرے",
+  "text_roman": "rwchw bht ke mre"
+}

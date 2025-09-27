@@ -30,7 +30,7 @@ from passlib.context import CryptContext
 # If you don't want PDFs yet, you can comment reportlab parts and the pdf generation call.
 from reportlab.lib.pagesizes import A4
 from reportlab.pdfgen import canvas
-
+from orch import run_analysis
 
 # ==============================
 # Configuration (keep in code)
@@ -42,6 +42,16 @@ from config import (
     ENV, SECRET_KEY, ALGORITHM, ACCESS_TOKEN_EXPIRE_MINUTES,
     CORS_ORIGINS, STATIC_DIR, STATIC_UPLOADS_DIR, STATIC_REPORTS_DIR, DATABASE_URL
 )
+
+# config.py  (top of file, replace the two lines)
+from dotenv import load_dotenv
+from pathlib import Path
+load_dotenv(dotenv_path=Path(__file__).with_name(".env"))
+
+# server.py (after load_dotenv)
+import os
+print("[BOOT] GEMINI_API_KEY set?:", bool(os.getenv("GEMINI_API_KEY")))
+print("[BOOT] DATABASE_URL:", os.getenv("DATABASE_URL"))
 
 
 # ==============================
@@ -533,82 +543,86 @@ def analyze_session(session_id: int, db: Session = Depends(get_db), current: Use
     if not classroom or classroom.user_id != current.id:
         raise HTTPException(404, "Class not found or not yours")
 
-    # ---- Fake analysis numbers (deterministic-ish) ----
-    # For demo: derive a pseudo score from the id so it "varies"
-    base = (session_row.id or 1) % 10
-    interactivity_score = round(55 + base * 3.1, 2)  # e.g., 55..85
-    duration_sec = 45 * 60 + base * 15  # ~45min class ± a bit
-    time_wasted_sec = 5 * 60 + base * 10
-    qna_sec = 8 * 60 + base * 12
-    interactive_sec = 12 * 60 + base * 14
-    teaching_sec = max(duration_sec - (time_wasted_sec + qna_sec + interactive_sec), 0)
+    if not session_row.audio_url or not session_row.audio_url.startswith("/static/"):
+        raise HTTPException(400, "This session has no uploaded audio to analyze.")
 
-    # ---- Persist to DB row ----
-    session_row.duration_sec = duration_sec
-    session_row.interactivity_score = interactivity_score
-    session_row.time_wasted_sec = time_wasted_sec
-    session_row.qna_sec = qna_sec
-    session_row.interactive_sec = interactive_sec
-    session_row.teaching_sec = teaching_sec
+    # Resolve absolute path to audio file
+    # e.g. audio_url="/static/uploads/file.mp3" -> STATIC_DIR / "uploads/file.mp3"
+    rel = session_row.audio_url.replace("/static/", "")
+    audio_path = (STATIC_DIR / rel).resolve()
+    if not audio_path.exists():
+        raise HTTPException(404, f"Audio file not found on disk: {audio_path}")
 
-    # ---- Emit artifacts under /static/reports ----
+    # ---- Run the real pipeline ----
+    result = run_analysis(str(audio_path))
+
+    # Pull metrics back into DB columns
+    metrics = result.get("metrics", {})
+    scores  = result.get("scores", {})
+    duration_sec = int(metrics.get("duration_sec") or 0)
+
+    session_row.duration_sec        = duration_sec
+    session_row.interactivity_score = float(scores.get("interactivity_score") or 0.0)
+    session_row.time_wasted_sec     = int(metrics.get("time_wasted_sec") or 0)
+    session_row.interactive_sec     = int(metrics.get("interactive_sec") or 0)
+    session_row.qna_sec             = int(metrics.get("qna_sec") or 0)
+    session_row.teaching_sec        = int(metrics.get("teaching_sec") or 0)
+
+    # ---- Emit artifacts under /static/reports (reuse your existing logic) ----
+    import json
     timestamp = datetime.utcnow().strftime("%Y%m%d-%H%M%S")
     json_name = f"session_{session_row.id}_{timestamp}.json"
-    pdf_name = f"session_{session_row.id}_{timestamp}.pdf"
+    pdf_name  = f"session_{session_row.id}_{timestamp}.pdf"
     json_path = STATIC_REPORTS_DIR / json_name
-    pdf_path = STATIC_REPORTS_DIR / pdf_name
+    pdf_path  = STATIC_REPORTS_DIR / pdf_name
 
-    # Write JSON (no external deps)
-    import json
-
+    # Full JSON payload: include analysis details for UI/QA
     report_dict = {
         "session_id": session_row.id,
         "classroom_id": classroom.id,
         "generated_at": datetime.utcnow().isoformat(),
-        "interactivity_score": interactivity_score,
-        "duration_sec": duration_sec,
-        "breakdown": {
-            "time_wasted_sec": time_wasted_sec,
-            "interactive_sec": interactive_sec,
-            "qna_sec": qna_sec,
-            "teaching_sec": teaching_sec,
-        },
+        "metrics": metrics,
+        "scores": scores,
+        "topics": result.get("topics", []),
+        "topic_explanations": result.get("topic_explanations", {}),
+        "summary": result.get("summary", {}),
+        "segments": result.get("segments", []),
+        "windows": result.get("windows", []),
+        "text_urdu": result.get("text_urdu", ""),
+        "text_roman": result.get("text_roman", ""),
     }
-    json_path.write_text(json.dumps(report_dict, indent=2))
+    json_path.write_text(json.dumps(report_dict, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    # Write simple PDF (using reportlab)
+    # Minimal PDF (you can enhance later with charts)
     _write_pdf_report(
         pdf_path,
         title=f"EduSense Session Report #{session_row.id}",
         stats={
-            "interactivity_score": interactivity_score,
-            "duration_sec": duration_sec,
-            "time_wasted_sec": time_wasted_sec,
-            "interactive_sec": interactive_sec,
-            "qna_sec": qna_sec,
-            "teaching_sec": teaching_sec,
+            "interactivity_score": session_row.interactivity_score,
+            "duration_sec": session_row.duration_sec,
+            "time_wasted_sec": session_row.time_wasted_sec,
+            "interactive_sec": session_row.interactive_sec,
+            "qna_sec": session_row.qna_sec,
+            "teaching_sec": session_row.teaching_sec,
         },
     )
 
-    # Save URLs on the row
+    # Save URLs
     session_row.report_json_url = f"/static/reports/{json_name}"
-    session_row.report_pdf_url = f"/static/reports/{pdf_name}"
+    session_row.report_pdf_url  = f"/static/reports/{pdf_name}"
 
     db.add(session_row)
 
-    # Recompute classroom average (only analyzed sessions contribute)
-    # Recompute classroom average (only analyzed sessions contribute)
-    scores = db.exec(
+    # Recompute classroom average from analyzed sessions (you already do this; keep it)
+    scores_list = db.exec(
         select(SessionRow.interactivity_score).where(
             (SessionRow.classroom_id == classroom.id)
             & (SessionRow.interactivity_score.is_not(None))
         )
-    ).all()  # ← no .scalars() here
-
-    classroom.avg_interactivity = round(sum(scores) / len(scores), 2) if scores else 0.0
+    ).all()
+    classroom.avg_interactivity = round(sum(scores_list) / len(scores_list), 2) if scores_list else 0.0
     db.add(classroom)
     db.commit()
-
 
     return {
         "status": "ok",
