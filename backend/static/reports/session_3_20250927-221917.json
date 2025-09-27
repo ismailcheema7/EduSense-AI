@@ -1,0 +1,216 @@
+{
+  "session_id": 3,
+  "classroom_id": 1,
+  "generated_at": "2025-09-27T22:19:17.679498",
+  "metrics": {
+    "duration_sec": 261,
+    "teaching_sec": 163,
+    "qna_sec": 0,
+    "interactive_sec": 0,
+    "time_wasted_sec": 0
+  },
+  "scores": {
+    "interactivity_score": 0.0
+  },
+  "topics": [
+    "Importance of Moral Values",
+    "Seeking Knowledge",
+    "Seeking Divine Guidance",
+    "Understanding Truth",
+    "Overcoming Difficulties",
+    "The Nature of Reality"
+  ],
+  "topic_explanations": {
+    "english": "The transcript discusses the significance of incorporating moral values and principles into one's life, the pursuit of knowledge and its benefits, and the importance of seeking divine guidance and understanding the truth. It also touches upon overcoming challenges and the complex nature of reality.",
+    "roman": "Transcript mein asraat-e-kalas aur usool ko zindagi mein shamil karne ki ahmiyat, ilm ki justajoo aur uske fawaid, aur Ilahi rehnumai talash karne aur haqeeqat ko samajhne ki zaroorat par guftagu ki gayi hai. Yeh mushkilat par qabu paane aur haqeeqat ki pecheeda shanakht par bhi roshni dalti hai."
+  },
+  "summary": {
+    "english": "This classroom discussion emphasizes the importance of cultivating strong moral character, actively seeking knowledge, and looking towards divine guidance. It highlights the need to discern truth and persevere through life's challenges, suggesting that a comprehensive understanding of reality involves embracing both intellectual and spiritual dimensions.",
+    "roman": "Yeh class ki guftagu mazboot akhlaqi kirdaar ko tarteeb dene, ilm ko fa'aal taur par talash karne, aur Ilahi rehnumai ki taraf dekhne ki ahmiyat par zor deti hai. Yeh haqeeqat ko pehchannay aur zindagi ki mushkilat se sabr karne ki zaroorat ko numayan karti hai, aur yeh ishara karti hai ke haqeeqat ki mukammal samajh mein aqali aur roohani dono pehluon ko samna karna shamil hai."
+  },
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 8.34,
+      "text": "سے عسکی ہے اپر جرائے ایک نگانے باگ جشبال لنانا، آعے برنے سے طبلا، اُفید ہوگا،"
+    },
+    {
+      "start": 8.34,
+      "end": 18.26,
+      "text": "تو سے بہلے تو سرات ابلاکی اتلاحی کر دوبرا وقت بھی جے، نبجے طوار کی وصیر سے برانے،"
+    },
+    {
+      "start": 19.26,
+      "end": 23.26,
+      "text": "اور وصیرت میں بھی، تاقید سامفوں مدوزے،"
+    },
+    {
+      "start": 24.26,
+      "end": 29.26,
+      "text": "کوئی باگ، نا کے حالان داز میں حر ساہی تلتے کے ساہت،"
+    },
+    {
+      "start": 30.26,
+      "end": 33.26,
+      "text": "ان کا حائی شر دوب مدر کری جائے،"
+    },
+    {
+      "start": 33.26,
+      "end": 36.26,
+      "text": "تو عرمی زبان میں اُسے بسیر سے قابیتی ادائیڈا،"
+    },
+    {
+      "start": 38.5,
+      "end": 43.5,
+      "text": "فجب یہ نفسا، معدے پفاول سے عہیا تو عقی،"
+    },
+    {
+      "start": 44.5,
+      "end": 47.5,
+      "text": "پر اس لنظید ات مفوی پہنا ہوا بو باگرے کا،"
+    },
+    {
+      "start": 48.5,
+      "end": 51.5,
+      "text": "لنانی یہ امر لن مرے اتمن سے ساہت،"
+    },
+    {
+      "start": 51.5,
+      "end": 54.5,
+      "text": "پر اُریشد دبتا، تیت ساہت مفوی پہتے،"
+    },
+    {
+      "start": 55.5,
+      "end": 58.5,
+      "text": "اور اتر اتر اتمند دلالی دلی،"
+    },
+    {
+      "start": 59.5,
+      "end": 61.5,
+      "text": "کہ باہم اس امر کداری رہنا،"
+    },
+    {
+      "start": 61.5,
+      "end": 67.5,
+      "text": "کہ ایسے بھت من دیشکماری ات کے لیے نابوزی اتر اُس کے شرہتا،"
+    },
+    {
+      "start": 68.5,
+      "end": 70.5,
+      "text": "کہ ایس دوس دی کو حق کی بسیر کرتے ہیں،"
+    },
+    {
+      "start": 71.5,
+      "end": 74.5,
+      "text": "کہ ایس دی کو حر کی بلائی کی بات کرتے ہیں،"
+    },
+    {
+      "start": 75.5,
+      "end": 77.5,
+      "text": "کہ ایسی کرا نبجہ حق کی بہت جامے ہیں،"
+    },
+    {
+      "start": 78.5,
+      "end": 80.5,
+      "text": "لتکی استقام لنکی عبیادیہ سکارہ،"
+    },
+    {
+      "start": 81.5,
+      "end": 84.5,
+      "text": "حر وہ ایس کے دو اپنن مسلم بو حق ہے،"
+    },
+    {
+      "start": 84.5,
+      "end": 87.5,
+      "text": "حر وہ ایس کے دو اقلاتر راجب بو حق ہے،"
+    },
+    {
+      "start": 87.5,
+      "end": 90.5,
+      "text": "اور وہ کہی سے با مکصبعے نتی جہتا ہے،"
+    },
+    {
+      "start": 91.5,
+      "end": 95.5,
+      "text": "اقلت کی سرحر وہ کہی پروب عقلی ہو،"
+    },
+    {
+      "start": 95.5,
+      "end": 100.5,
+      "text": "جس را ب خیالی اور وامینا ہو,\" وہ بھی حقئے،"
+    },
+    {
+      "start": 100.5,
+      "end": 105.5,
+      "text": "اس ات مازکلنا جتانات من خبق میں انتاہ جسابت جدائ him."
+    },
+    {
+      "start": 105.5,
+      "end": 108.5,
+      "text": "کہ تکی تیچ ہوتی خمیھ کرتو سے نے کرتا،"
+    },
+    {
+      "start": 108.5,
+      "end": 111.5,
+      "text": "اور تکی چھوتے خمیک سے نے کرتا،"
+    },
+    {
+      "start": 111.5,
+      "end": 116.5,
+      "text": "ایسے سے لئے پولوں مقارتی ہوتی ان سے انتی تیاری لاا کرتیلانا،"
+    },
+    {
+      "start": 117.5,
+      "end": 126.82,
+      "text": "اور ایل سکول اللہ اللہ ان سب کی قبلی ان سب کی نشروی شات ان سب کا ایلانوں"
+    },
+    {
+      "start": 126.82,
+      "end": 134.16,
+      "text": "ایتراق کی افترات ایتراق کی بھی حکمی شامیل ایسے بعد امارے تبنطہ سبنطہ سبنطہ سبنطہ سبنطہ سبنطہ"
+    },
+    {
+      "start": 134.16,
+      "end": 140.96,
+      "text": "جو دو طرح دانے سبقایا تھا آیا ہے دیب اس کے آہ کے اہتے ہیں"
+    },
+    {
+      "start": 140.96,
+      "end": 149.46,
+      "text": "کی یہ کمار کی بھی حکمیشان کے ساتھ مطلوب ہے کہ خاص ازیل میں انسان کو ففرقا کا تدوزات ہونا پر ایک"
+    },
+    {
+      "start": 149.46,
+      "end": 154.86,
+      "text": "خاصیت معنی ستیفہ مجاق کرنی پر ایک اور سا جس کا تقاجہ ہوئے"
+    },
+    {
+      "start": 154.86,
+      "end": 158.76,
+      "text": "تین سان نفر اجان ستلی پر رکھتا ندانے جن میں حاجل ہو دائے"
+    },
+    {
+      "start": 158.76,
+      "end": 163.46,
+      "text": "اور اپنی جان کا ہی آنے کہ سراہے حکمیل رش کر دے"
+    }
+  ],
+  "windows": [
+    {
+      "start": 0,
+      "end": 88,
+      "text_urdu": "سے عسکی ہے اپر جرائے ایک نگانے باگ جشبال لنانا، آعے برنے سے طبلا، اُفید ہوگا، تو سے بہلے تو سرات ابلاکی اتلاحی کر دوبرا وقت بھی جے، نبجے طوار کی وصیر سے برانے، اور وصیرت میں بھی، تاقید سامفوں مدوزے، کوئی باگ، نا کے حالان داز میں حر ساہی تلتے کے ساہت، ان کا حائی شر دوب مدر کری جائے، تو عرمی زبان میں اُسے بسیر سے قابیتی ادائیڈا، فجب یہ نفسا، معدے پفاول سے عہیا تو عقی، پر اس لنظید ات مفوی پہنا ہوا بو باگرے کا، لنانی یہ امر لن مرے اتمن سے ساہت، پر اُریشد دبتا، تیت ساہت مفوی پہتے، اور اتر اتر اتمند دلالی دلی، کہ باہم اس امر کداری رہنا، کہ ایسے بھت من دیشکماری ات کے لیے نابوزی اتر اُس کے شرہتا، کہ ایس دوس دی کو حق کی بسیر کرتے ہیں، کہ ایس دی کو حر کی بلائی کی بات کرتے ہیں، کہ ایسی کرا نبجہ حق کی بہت جامے ہیں، لتکی استقام لنکی عبیادیہ سکارہ، حر وہ ایس کے دو اپنن مسلم بو حق ہے، حر وہ ایس کے دو اقلاتر راجب بو حق ہے،",
+      "text_roman": "se ’sky hai apr jraئe ayk ngane bag jshbal lnana، aa’e brne se tbla، aufyd hwga، tw se bhle tw srat ablaky atlahy kr dwbra wqt bhy je، nbje twar ky wsyr se brane، awr wsyrt mein bhy، taqyd samfwn mdwze، kwئy bag، na ke halan daz mein hr sahy tlte ke saht، an ka haئy shr dwb mdr kry jaئe، tw ’rmy zban mein ause bsyr se qabyty adaئyda، fjb yh nfsa، m’de pfawl se ’hya tw ’qy، pr as lnzyd at mfwy phna hwa bw bagre ka، lnany yh amr ln mre atmn se saht، pr auryshd dbta، tyt saht mfwy phte، awr atr atr atmnd dlaly dly، kh bahm as amr kdary rhna، kh ayse bht mn dyshkmary at ke lye nabwzy atr aus ke shrhta، kh ays dws dy kw hq ky bsyr krte hyn، kh ays dy kw hr ky blaئy ky bat krte hyn، kh aysy kra nbjh hq ky bht jame hyn، ltky astqam lnky ’byadyh skarh، hr wh ays ke dw apnn mslm bw hq he، hr wh ays ke dw aqlatr rajb bw hq he،",
+      "label": "LECTURE"
+    },
+    {
+      "start": 88,
+      "end": 163,
+      "text_urdu": "اور وہ کہی سے با مکصبعے نتی جہتا ہے، اقلت کی سرحر وہ کہی پروب عقلی ہو، جس را ب خیالی اور وامینا ہو,\" وہ بھی حقئے، اس ات مازکلنا جتانات من خبق میں انتاہ جسابت جدائ him. کہ تکی تیچ ہوتی خمیھ کرتو سے نے کرتا، اور تکی چھوتے خمیک سے نے کرتا، ایسے سے لئے پولوں مقارتی ہوتی ان سے انتی تیاری لاا کرتیلانا، اور ایل سکول اللہ اللہ ان سب کی قبلی ان سب کی نشروی شات ان سب کا ایلانوں ایتراق کی افترات ایتراق کی بھی حکمی شامیل ایسے بعد امارے تبنطہ سبنطہ سبنطہ سبنطہ سبنطہ سبنطہ جو دو طرح دانے سبقایا تھا آیا ہے دیب اس کے آہ کے اہتے ہیں کی یہ کمار کی بھی حکمیشان کے ساتھ مطلوب ہے کہ خاص ازیل میں انسان کو ففرقا کا تدوزات ہونا پر ایک خاصیت معنی ستیفہ مجاق کرنی پر ایک اور سا جس کا تقاجہ ہوئے تین سان نفر اجان ستلی پر رکھتا ندانے جن میں حاجل ہو دائے اور اپنی جان کا ہی آنے کہ سراہے حکمیل رش کر دے",
+      "text_roman": "awr wh khy se ba mksb’e nty jhta he، aqlt ky srhr wh khy prwb ’qly hw، js ra b khyaly awr wamyna hw,\" wh bhy hqئe، as at mazklna jtanat mn khbq mein antah jsabt jdaئ him. kh tky tych hwty khmyh krtw se ne krta، awr tky chhwte khmyk se ne krta، ayse se lئe pwlwn mqarty hwty an se anty tyary laa krtylana، awr ayl skwl allh allh an sb ky qbly an sb ky nshrwy shat an sb ka aylanwn aytraq ky aftrat aytraq ky bhy hkmy shamyl ayse b’d amare tbnth sbnth sbnth sbnth sbnth sbnth jw dw trh dane sbqaya tha aaya hai dyb as ke aah ke ahte hain ky yh kmar ky bhy hkmyshan ke sath mtlwb hai kh khas azyl mein ansan kw ffrqa ka tdwzat hwna pr ayk khasyt m’ny styfh mjaq krny pr ayk awr sa js ka tqajh hwئe tyn san nfr ajan stly pr rkhta ndane jn mein hajl hw daئe awr apny jan ka hy aane kh srahe hkmyl rsh kr de",
+      "label": "LECTURE"
+    }
+  ],
+  "text_urdu": "سے عسکی ہے اپر جرائے ایک نگانے باگ جشبال لنانا، آعے برنے سے طبلا، اُفید ہوگا، تو سے بہلے تو سرات ابلاکی اتلاحی کر دوبرا وقت بھی جے، نبجے طوار کی وصیر سے برانے، اور وصیرت میں بھی، تاقید سامفوں مدوزے، کوئی باگ، نا کے حالان داز میں حر ساہی تلتے کے ساہت، ان کا حائی شر دوب مدر کری جائے، تو عرمی زبان میں اُسے بسیر سے قابیتی ادائیڈا، فجب یہ نفسا، معدے پفاول سے عہیا تو عقی، پر اس لنظید ات مفوی پہنا ہوا بو باگرے کا، لنانی یہ امر لن مرے اتمن سے ساہت، پر اُریشد دبتا، تیت ساہت مفوی پہتے، اور اتر اتر اتمند دلالی دلی، کہ باہم اس امر کداری رہنا، کہ ایسے بھت من دیشکماری ات کے لیے نابوزی اتر اُس کے شرہتا، کہ ایس دوس دی کو حق کی بسیر کرتے ہیں، کہ ایس دی کو حر کی بلائی کی بات کرتے ہیں، کہ ایسی کرا نبجہ حق کی بہت جامے ہیں، لتکی استقام لنکی عبیادیہ سکارہ، حر وہ ایس کے دو اپنن مسلم بو حق ہے، حر وہ ایس کے دو اقلاتر راجب بو حق ہے، اور وہ کہی سے با مکصبعے نتی جہتا ہے، اقلت کی سرحر وہ کہی پروب عقلی ہو، جس را ب خیالی اور وامینا ہو,\" وہ بھی حقئے، اس ات مازکلنا جتانات من خبق میں انتاہ جسابت جدائ him. کہ تکی تیچ ہوتی خمیھ کرتو سے نے کرتا، اور تکی چھوتے خمیک سے نے کرتا، ایسے سے لئے پولوں مقارتی ہوتی ان سے انتی تیاری لاا کرتیلانا، اور ایل سکول اللہ اللہ ان سب کی قبلی ان سب کی نشروی شات ان سب کا ایلانوں ایتراق کی افترات ایتراق کی بھی حکمی شامیل ایسے بعد امارے تبنطہ سبنطہ سبنطہ سبنطہ سبنطہ سبنطہ جو دو طرح دانے سبقایا تھا آیا ہے دیب اس کے آہ کے اہتے ہیں کی یہ کمار کی بھی حکمیشان کے ساتھ مطلوب ہے کہ خاص ازیل میں انسان کو ففرقا کا تدوزات ہونا پر ایک خاصیت معنی ستیفہ مجاق کرنی پر ایک اور سا جس کا تقاجہ ہوئے تین سان نفر اجان ستلی پر رکھتا ندانے جن میں حاجل ہو دائے اور اپنی جان کا ہی آنے کہ سراہے حکمیل رش کر دے",
+  "text_roman": "se ’sky hai apr jraئe ayk ngane bag jshbal lnana، aa’e brne se tbla، aufyd hwga، tw se bhle tw srat ablaky atlahy kr dwbra wqt bhy je، nbje twar ky wsyr se brane، awr wsyrt mein bhy، taqyd samfwn mdwze، kwئy bag، na ke halan daz mein hr sahy tlte ke saht، an ka haئy shr dwb mdr kry jaئe، tw ’rmy zban mein ause bsyr se qabyty adaئyda، fjb yh nfsa، m’de pfawl se ’hya tw ’qy، pr as lnzyd at mfwy phna hwa bw bagre ka، lnany yh amr ln mre atmn se saht، pr auryshd dbta، tyt saht mfwy phte، awr atr atr atmnd dlaly dly، kh bahm as amr kdary rhna، kh ayse bht mn dyshkmary at ke lye nabwzy atr aus ke shrhta، kh ays dws dy kw hq ky bsyr krte hyn، kh ays dy kw hr ky blaئy ky bat krte hyn، kh aysy kra nbjh hq ky bht jame hyn، ltky astqam lnky ’byadyh skarh، hr wh ays ke dw apnn mslm bw hq he، hr wh ays ke dw aqlatr rajb bw hq he، awr wh khy se ba mksb’e nty jhta he، aqlt ky srhr wh khy prwb ’qly hw، js ra b khyaly awr wamyna hw,\" wh bhy hqئe، as at mazklna jtanat mn khbq mein antah jsabt jdaئ him. kh tky tych hwty khmyh krtw se ne krta، awr tky chhwte khmyk se ne krta، ayse se lئe pwlwn mqarty hwty an se anty tyary laa krtylana، awr ayl skwl allh allh an sb ky qbly an sb ky nshrwy shat an sb ka aylanwn aytraq ky aftrat aytraq ky bhy hkmy shamyl ayse b’d amare tbnth sbnth sbnth sbnth sbnth sbnth jw dw trh dane sbqaya tha aaya hai dyb as ke aah ke ahte hain ky yh kmar ky bhy hkmyshan ke sath mtlwb hai kh khas azyl mein ansan kw ffrqa ka tdwzat hwna pr ayk khasyt m’ny styfh mjaq krny pr ayk awr sa js ka tqajh hwئe tyn san nfr ajan stly pr rkhta ndane jn mein hajl hw daئe awr apny jan ka hy aane kh srahe hkmyl rsh kr de"
+}

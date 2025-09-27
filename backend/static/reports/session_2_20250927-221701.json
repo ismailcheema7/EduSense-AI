@@ -1,0 +1,282 @@
+{
+  "session_id": 2,
+  "classroom_id": 1,
+  "generated_at": "2025-09-27T22:17:01.880441",
+  "metrics": {
+    "duration_sec": 261,
+    "teaching_sec": 264,
+    "qna_sec": 0,
+    "interactive_sec": 0,
+    "time_wasted_sec": 0
+  },
+  "scores": {
+    "interactivity_score": 0.0
+  },
+  "topics": [
+    "Spiritual Growth",
+    "Ethical Conduct",
+    "Human Relations",
+    "Divine Guidance",
+    "Personal Responsibility"
+  ],
+  "topic_explanations": {
+    "english": "The transcript discusses themes of spiritual development, the importance of good character, interpersonal relationships, seeking divine help, and individual accountability for actions.",
+    "roman": "Transcript mein rohani tarraqi, achay akhlaq ki ahmiyat, aapas ke taluqaat, ilahi madad talab karne, aur aemaal ki zameeni zimmedari ke mauzu par baat ki gayi hai."
+  },
+  "summary": {
+    "english": "This classroom discussion emphasizes the journey of spiritual growth, highlighting the need for good deeds, sincere intentions, and adherence to divine guidance. It touches upon the significance of positive human interactions, maintaining ethical standards, and understanding one's responsibilities in life.",
+    "roman": "Yeh classroom mein guftagu rohani tarraqi ke safar par zor deti hai, achay aemaal, khalis niyat, aur ilahi rehnumai par amal karne ki zaroorat ko numayan karti hai. Is mein behtar insani t’ammulat, akhlaqi mayaro ko qaim rakhne, aur zindagi mein apni zimmedariyon ko samajhne ki ahmiyat ko chhua gaya hai."
+  },
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.36,
+      "text": "کے عسکی ہے تو پر ذراہ ایک نگانے باگ ذر دعل لے ناکا ہے"
+    },
+    {
+      "start": 5.72,
+      "end": 8.52,
+      "text": "آگے برنے سے طبلا، توفید ہوگا"
+    },
+    {
+      "start": 8.72,
+      "end": 14.14,
+      "text": "فسفہ لے تو سرات اگل حق کی اتلاحی طرق ببرا ہوں کا بھی جے"
+    },
+    {
+      "start": 14.36,
+      "end": 18.08,
+      "text": "نبجے طوال کی مسیجت سے براہ ہے"
+    },
+    {
+      "start": 19.52,
+      "end": 23.44,
+      "text": "اور مسیجت میں بھی تاقید سامفوم مدوزے"
+    },
+    {
+      "start": 24.42,
+      "end": 25.72,
+      "text": "کوئی باگ"
+    },
+    {
+      "start": 26.18,
+      "end": 29.76,
+      "text": "ناکہ حالاً داز میں خرصہی تلتے کے ساہتے"
+    },
+    {
+      "start": 30.26,
+      "end": 32.8,
+      "text": "ان کا حائی شرد مدقہ کری جائے"
+    },
+    {
+      "start": 32.8,
+      "end": 36.44,
+      "text": "قوارہ کی زبان میں ہوں سے مسی اچھے تکہ بیزی صیح کے ایسی، ادائے ایسے۔"
+    },
+    {
+      "start": 36.44,
+      "end": 39.48,
+      "text": "قிط جب یہ نکس۔"
+    },
+    {
+      "start": 39.48,
+      "end": 42.72,
+      "text": "مع دے پفہوں سے آیا تواشی۔"
+    },
+    {
+      "start": 43.96,
+      "end": 47.44,
+      "text": "پرویش دع مریجت مphو میں نهو بُبانڈے کا گاہنے۔"
+    },
+    {
+      "start": 47.84,
+      "end": 51.0,
+      "text": "جانی یہامل میں اجھ مان کے ساتھ۔"
+    },
+    {
+      "start": 51.0,
+      "end": 54.0,
+      "text": "پو ریش جبتہ اپو ساتھ ایسے ایسے توہ تسمح رو ایسے۔"
+    },
+    {
+      "start": 54.92,
+      "end": 57.92,
+      "text": "اور ایس رہ مریجت مجود دلعریج گئی۔"
+    },
+    {
+      "start": 57.92,
+      "end": 70.62,
+      "text": "کہ باہم کہ سامل کا داری رہنا کسی بیس سے تمن کی قمائی اکلیے نابوزی اکتے ہوس کے شرقہ سے دوسگر کو حق کی بسی اکتے رہے۔"
+    },
+    {
+      "start": 70.62,
+      "end": 74.82,
+      "text": "کہ دوسگر کو حیر کی بلائی کی بات کرتے رہے۔"
+    },
+    {
+      "start": 74.82,
+      "end": 80.82,
+      "text": "کسی کرا نبجہ حق کی بہت جامے ہیں لتکی استقبل اکتی عبیہ دا چکارہا۔"
+    },
+    {
+      "start": 80.82,
+      "end": 85.52,
+      "text": "اور وہ چیز کر جو اپنا مسلم روحاک ہے۔"
+    },
+    {
+      "start": 85.52,
+      "end": 89.52,
+      "text": "اور وہ چیز کے جو اکلاطر رادیوں وہ حقتے۔"
+    },
+    {
+      "start": 89.52,
+      "end": 93.02,
+      "text": "اور وہ چیز سے جو باہمک سبھل نطی جا فیز وہ اکتے۔"
+    },
+    {
+      "start": 93.02,
+      "end": 101.12,
+      "text": "افیيتر ایک سے اور وہ چیز کے جو باہتے ہوا، یہ سرقت خریعر وحمی اللہ ہو جو بھی حقتے۔"
+    },
+    {
+      "start": 101.12,
+      "end": 106.32,
+      "text": "اپعے تمات کا ذتنات بھی حق مقوم انتحا ایس بھی خدت سے رکھا ہے۔"
+    },
+    {
+      "start": 137.6,
+      "end": 144.2,
+      "text": "کس آپی مرانجر ہو اس کے آخر میں وہاں پر کردییاں کے یہ کگاریر"
+    },
+    {
+      "start": 144.4,
+      "end": 148.6,
+      "text": "آپیولہ انسان کے اساد مطلب ہے کہ ہوا اس کے لئے انسان کو فرقائے"
+    },
+    {
+      "start": 148.8,
+      "end": 151.7,
+      "text": "انسان کو فرقائے دو ساربوں نہ پر اچھا جربی۔"
+    },
+    {
+      "start": 151.8,
+      "end": 158.16,
+      "text": "اور ساربی which کا تطالتا غوم کیانسان لپرے جان صطہی لپررکا"
+    },
+    {
+      "start": 158.36,
+      "end": 163.4,
+      "text": "ندا ندا نجن میں حاجر ہوتا ہے اور ا Besن اجن کا شہیا کے اسران"
+    },
+    {
+      "start": 163.4,
+      "end": 171.12,
+      "text": "یہ ایک انسان کے سلواتے اُتصیر نیک اور سالے انسان ہونا کے لئے نعبوزیسی۔"
+    },
+    {
+      "start": 171.12,
+      "end": 179.16,
+      "text": "اسی طریقا بت میں زباتی بلحکے دنے ایک نی سلاقہ بھای سیامر دل معروف لہنی لن بلکر۔"
+    },
+    {
+      "start": 179.16,
+      "end": 184.76,
+      "text": "عوائی بات محانسی رہی کی ہے کہ معروف کی وہ ساقہ۔"
+    },
+    {
+      "start": 184.76,
+      "end": 190.68,
+      "text": "اور ملکر جلازنے جس کا در حما جیری اقائی جاتی ہے۔"
+    },
+    {
+      "start": 190.68,
+      "end": 197.18,
+      "text": "اس کے جبار سے وہاں کے مفوی یہ ہوگا کے حرح ہے حال میں کی حرب بلائی ہے"
+    },
+    {
+      "start": 197.18,
+      "end": 202.38,
+      "text": "حرح کی قطر حرق داکت کی تبھی وہ سلتی ہو سامت لسی حق ہو"
+    },
+    {
+      "start": 202.38,
+      "end": 208.18,
+      "text": "کشی روی شاق ہو علاوہ ایک راق ہو حرق کے سروی جو تنسیز"
+    },
+    {
+      "start": 208.18,
+      "end": 213.38,
+      "text": "اور وہ سیس داکی حائق تیف کو از ملن مدار کیا دائے"
+    },
+    {
+      "start": 213.38,
+      "end": 216.68,
+      "text": "اسی ایک محا فرمایا دیا ساکی راق بلائییا"
+    },
+    {
+      "start": 216.68,
+      "end": 220.84,
+      "text": "قطی تو عرنی سانا جبب Oooh soupcriptions جورکس"
+    },
+    {
+      "start": 220.84,
+      "end": 228.52,
+      "text": "یہ تک عارنی سے تکا TH prendreہی Simmons"
+    },
+    {
+      "start": 228.52,
+      "end": 233.68,
+      "text": "گڑا دوک خلق سنٹید و گیسہ کارو معنامتم"
+    },
+    {
+      "start": 233.68,
+      "end": 239.1,
+      "text": "cousins جسا چھو رہ hide係انا gevوہا شای رولی"
+    },
+    {
+      "start": 239.1,
+      "end": 244.72,
+      "text": "ق atom کے طلد کی پوراپئی ہوسر مرد"
+    },
+    {
+      "start": 244.72,
+      "end": 248.86,
+      "text": "اور اس پراقراثی بل کوئی انلمجل طنیشان دریقل کی دریق"
+    },
+    {
+      "start": 249.24,
+      "end": 259.22,
+      "text": "تشنیے کے متعبائل صعر پران نجار لیکن بھی ان ناللاعہ بولہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہا ہے۔"
+    },
+    {
+      "start": 260.22,
+      "end": 263.72,
+      "text": "اور وہ ہی زاتےment ..."
+    }
+  ],
+  "windows": [
+    {
+      "start": 0,
+      "end": 90,
+      "text_urdu": "کے عسکی ہے تو پر ذراہ ایک نگانے باگ ذر دعل لے ناکا ہے آگے برنے سے طبلا، توفید ہوگا فسفہ لے تو سرات اگل حق کی اتلاحی طرق ببرا ہوں کا بھی جے نبجے طوال کی مسیجت سے براہ ہے اور مسیجت میں بھی تاقید سامفوم مدوزے کوئی باگ ناکہ حالاً داز میں خرصہی تلتے کے ساہتے ان کا حائی شرد مدقہ کری جائے قوارہ کی زبان میں ہوں سے مسی اچھے تکہ بیزی صیح کے ایسی، ادائے ایسے۔ قிط جب یہ نکس۔ مع دے پفہوں سے آیا تواشی۔ پرویش دع مریجت مphو میں نهو بُبانڈے کا گاہنے۔ جانی یہامل میں اجھ مان کے ساتھ۔ پو ریش جبتہ اپو ساتھ ایسے ایسے توہ تسمح رو ایسے۔ اور ایس رہ مریجت مجود دلعریج گئی۔ کہ باہم کہ سامل کا داری رہنا کسی بیس سے تمن کی قمائی اکلیے نابوزی اکتے ہوس کے شرقہ سے دوسگر کو حق کی بسی اکتے رہے۔ کہ دوسگر کو حیر کی بلائی کی بات کرتے رہے۔ کسی کرا نبجہ حق کی بہت جامے ہیں لتکی استقبل اکتی عبیہ دا چکارہا۔ اور وہ چیز کر جو اپنا مسلم روحاک ہے۔ اور وہ چیز کے جو اکلاطر رادیوں وہ حقتے۔",
+      "text_roman": "ke ’sky hai tw pr zrah ayk ngane bag zr d’l le naka hai aage brne se tbla، twfyd hoga fsfh le tw srat agl hq ky atlahy trq bbra hoon ka bhy je nbje twal ky msyjt se brah hai awr msyjt mein bhy taqyd samfwm mdwze kwئy bag nakh halaan daz mein khrshy tlte ke sahte an ka haئy shrd mdqh kry jaئe qwarh ky zban mein hoon se msy achhe tkh byzy syh ke aysy، adaئe ayse۔ qிt jb yh nks۔ m’ de pfhwn se aaya twashy۔ prwysh d’ mryjt mphw mein nهw bubande ka gahne۔ jany yhaml mein ajh man ke sath۔ pw rysh jbth apw sath ayse ayse twh tsmh rw ayse۔ awr ays rh mryjt mjwd dl’ryj gئy۔ kh bahm kh saml ka dary rhna ksy bys se tmn ky qmaئy aklye nabwzy akte hws ke shrqh se dwsgr kw hq ky bsy akte rhe۔ kh dwsgr kw hyr ky blaئy ky bat krte rhe۔ ksy kra nbjh hq ky bht jame hain ltky astqbl akty ’byh da chkarha۔ awr wh chyz kr jw apna mslm rwhak he۔ awr wh chyz ke jw aklatr radywn wh hqte۔",
+      "label": "LECTURE"
+    },
+    {
+      "start": 90,
+      "end": 179,
+      "text_urdu": "اور وہ چیز سے جو باہمک سبھل نطی جا فیز وہ اکتے۔ افیيتر ایک سے اور وہ چیز کے جو باہتے ہوا، یہ سرقت خریعر وحمی اللہ ہو جو بھی حقتے۔ اپعے تمات کا ذتنات بھی حق مقوم انتحا ایس بھی خدت سے رکھا ہے۔ کس آپی مرانجر ہو اس کے آخر میں وہاں پر کردییاں کے یہ کگاریر آپیولہ انسان کے اساد مطلب ہے کہ ہوا اس کے لئے انسان کو فرقائے انسان کو فرقائے دو ساربوں نہ پر اچھا جربی۔ اور ساربی which کا تطالتا غوم کیانسان لپرے جان صطہی لپررکا ندا ندا نجن میں حاجر ہوتا ہے اور ا Besن اجن کا شہیا کے اسران یہ ایک انسان کے سلواتے اُتصیر نیک اور سالے انسان ہونا کے لئے نعبوزیسی۔ اسی طریقا بت میں زباتی بلحکے دنے ایک نی سلاقہ بھای سیامر دل معروف لہنی لن بلکر۔",
+      "text_roman": "awr wh chyz se jw bahmk sbhl nty ja fyz wh akte۔ afyيtr ayk se awr wh chyz ke jw bahte hwa، yh srqt khry’r whmy allh hw jw bhy hqte۔ ap’e tmat ka ztnat bhy hq mqwm antha ays bhy khdt se rkha he۔ ks aapy mranjr hw as ke aakhr mein whan pr krdyyan ke yh kgaryr aapywlh ansan ke asad mtlb hai kh hwa as ke lئe ansan kw frqaئe ansan kw frqaئe dw sarbwn nh pr achha jrby۔ awr sarby which ka ttalta ghwm kyansan lpre jan sthy lprrka nda nda njn mein hajr hwta hai awr a Besn ajn ka shya ke asran yh ayk ansan ke slwate autsyr nyk awr sale ansan hwna ke lئe n’bwzysy۔ asy tryqa bt mein zbaty blhke dne ayk ny slaqh bhay syamr dl m’rwf lhny ln blkr۔",
+      "label": "LECTURE"
+    },
+    {
+      "start": 179,
+      "end": 264,
+      "text_urdu": "عوائی بات محانسی رہی کی ہے کہ معروف کی وہ ساقہ۔ اور ملکر جلازنے جس کا در حما جیری اقائی جاتی ہے۔ اس کے جبار سے وہاں کے مفوی یہ ہوگا کے حرح ہے حال میں کی حرب بلائی ہے حرح کی قطر حرق داکت کی تبھی وہ سلتی ہو سامت لسی حق ہو کشی روی شاق ہو علاوہ ایک راق ہو حرق کے سروی جو تنسیز اور وہ سیس داکی حائق تیف کو از ملن مدار کیا دائے اسی ایک محا فرمایا دیا ساکی راق بلائییا قطی تو عرنی سانا جبب Oooh soupcriptions جورکس یہ تک عارنی سے تکا TH prendreہی Simmons گڑا دوک خلق سنٹید و گیسہ کارو معنامتم cousins جسا چھو رہ hide係انا gevوہا شای رولی ق atom کے طلد کی پوراپئی ہوسر مرد اور اس پراقراثی بل کوئی انلمجل طنیشان دریقل کی دریق تشنیے کے متعبائل صعر پران نجار لیکن بھی ان ناللاعہ بولہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہا ہے۔ اور وہ ہی زاتےment ...",
+      "text_roman": "’waئy bat mhansy rhy ky hai kh m’rwf ky wh saqh۔ awr mlkr jlazne js ka dr hma jyry aqaئy jaty he۔ as ke jbar se whan ke mfwy yh hoga ke hrh hai hal mein ky hrb blaئy hai hrh ky qtr hrq dakt ky tbhy wh slty hw samt lsy hq hw kshy rwy shaq hw ’lawh ayk raq hw hrq ke srwy jw tnsyz awr wh sys daky haئq tyf kw az mln mdar kya daئe asy ayk mha frmaya dya saky raq blaئyya qty tw ’rny sana jbb Oooh soupcriptions jwrks yh tk ’arny se tka TH prendrehy Simmons gra dwk khlq sntyd w gysh karw m’namtm cousins jsa chhw rh hide係ana gevwha shay rwly q atom ke tld ky pwrapئy hwsr mrd awr as praqrasy bl kwئy anlmjl tnyshan dryql ky dryq tshnye ke mt’baئl s’r pran njar lykn bhy an nalla’h bwlhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhha he۔ awr wh hy zatement ...",
+      "label": "LECTURE"
+    }
+  ],
+  "text_urdu": "کے عسکی ہے تو پر ذراہ ایک نگانے باگ ذر دعل لے ناکا ہے آگے برنے سے طبلا، توفید ہوگا فسفہ لے تو سرات اگل حق کی اتلاحی طرق ببرا ہوں کا بھی جے نبجے طوال کی مسیجت سے براہ ہے اور مسیجت میں بھی تاقید سامفوم مدوزے کوئی باگ ناکہ حالاً داز میں خرصہی تلتے کے ساہتے ان کا حائی شرد مدقہ کری جائے قوارہ کی زبان میں ہوں سے مسی اچھے تکہ بیزی صیح کے ایسی، ادائے ایسے۔ قிط جب یہ نکس۔ مع دے پفہوں سے آیا تواشی۔ پرویش دع مریجت مphو میں نهو بُبانڈے کا گاہنے۔ جانی یہامل میں اجھ مان کے ساتھ۔ پو ریش جبتہ اپو ساتھ ایسے ایسے توہ تسمح رو ایسے۔ اور ایس رہ مریجت مجود دلعریج گئی۔ کہ باہم کہ سامل کا داری رہنا کسی بیس سے تمن کی قمائی اکلیے نابوزی اکتے ہوس کے شرقہ سے دوسگر کو حق کی بسی اکتے رہے۔ کہ دوسگر کو حیر کی بلائی کی بات کرتے رہے۔ کسی کرا نبجہ حق کی بہت جامے ہیں لتکی استقبل اکتی عبیہ دا چکارہا۔ اور وہ چیز کر جو اپنا مسلم روحاک ہے۔ اور وہ چیز کے جو اکلاطر رادیوں وہ حقتے۔ اور وہ چیز سے جو باہمک سبھل نطی جا فیز وہ اکتے۔ افیيتر ایک سے اور وہ چیز کے جو باہتے ہوا، یہ سرقت خریعر وحمی اللہ ہو جو بھی حقتے۔ اپعے تمات کا ذتنات بھی حق مقوم انتحا ایس بھی خدت سے رکھا ہے۔ کس آپی مرانجر ہو اس کے آخر میں وہاں پر کردییاں کے یہ کگاریر آپیولہ انسان کے اساد مطلب ہے کہ ہوا اس کے لئے انسان کو فرقائے انسان کو فرقائے دو ساربوں نہ پر اچھا جربی۔ اور ساربی which کا تطالتا غوم کیانسان لپرے جان صطہی لپررکا ندا ندا نجن میں حاجر ہوتا ہے اور ا Besن اجن کا شہیا کے اسران یہ ایک انسان کے سلواتے اُتصیر نیک اور سالے انسان ہونا کے لئے نعبوزیسی۔ اسی طریقا بت میں زباتی بلحکے دنے ایک نی سلاقہ بھای سیامر دل معروف لہنی لن بلکر۔ عوائی بات محانسی رہی کی ہے کہ معروف کی وہ ساقہ۔ اور ملکر جلازنے جس کا در حما جیری اقائی جاتی ہے۔ اس کے جبار سے وہاں کے مفوی یہ ہوگا کے حرح ہے حال میں کی حرب بلائی ہے حرح کی قطر حرق داکت کی تبھی وہ سلتی ہو سامت لسی حق ہو کشی روی شاق ہو علاوہ ایک راق ہو حرق کے سروی جو تنسیز اور وہ سیس داکی حائق تیف کو از ملن مدار کیا دائے اسی ایک محا فرمایا دیا ساکی راق بلائییا قطی تو عرنی سانا جبب Oooh soupcriptions جورکس یہ تک عارنی سے تکا TH prendreہی Simmons گڑا دوک خلق سنٹید و گیسہ کارو معنامتم cousins جسا چھو رہ hide係انا gevوہا شای رولی ق atom کے طلد کی پوراپئی ہوسر مرد اور اس پراقراثی بل کوئی انلمجل طنیشان دریقل کی دریق تشنیے کے متعبائل صعر پران نجار لیکن بھی ان ناللاعہ بولہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہہا ہے۔ اور وہ ہی زاتےment ...",
+  "text_roman": "ke ’sky hai tw pr zrah ayk ngane bag zr d’l le naka hai aage brne se tbla، twfyd hoga fsfh le tw srat agl hq ky atlahy trq bbra hoon ka bhy je nbje twal ky msyjt se brah hai awr msyjt mein bhy taqyd samfwm mdwze kwئy bag nakh halaan daz mein khrshy tlte ke sahte an ka haئy shrd mdqh kry jaئe qwarh ky zban mein hoon se msy achhe tkh byzy syh ke aysy، adaئe ayse۔ qிt jb yh nks۔ m’ de pfhwn se aaya twashy۔ prwysh d’ mryjt mphw mein nهw bubande ka gahne۔ jany yhaml mein ajh man ke sath۔ pw rysh jbth apw sath ayse ayse twh tsmh rw ayse۔ awr ays rh mryjt mjwd dl’ryj gئy۔ kh bahm kh saml ka dary rhna ksy bys se tmn ky qmaئy aklye nabwzy akte hws ke shrqh se dwsgr kw hq ky bsy akte rhe۔ kh dwsgr kw hyr ky blaئy ky bat krte rhe۔ ksy kra nbjh hq ky bht jame hain ltky astqbl akty ’byh da chkarha۔ awr wh chyz kr jw apna mslm rwhak he۔ awr wh chyz ke jw aklatr radywn wh hqte۔ awr wh chyz se jw bahmk sbhl nty ja fyz wh akte۔ afyيtr ayk se awr wh chyz ke jw bahte hwa، yh srqt khry’r whmy allh hw jw bhy hqte۔ ap’e tmat ka ztnat bhy hq mqwm antha ays bhy khdt se rkha he۔ ks aapy mranjr hw as ke aakhr mein whan pr krdyyan ke yh kgaryr aapywlh ansan ke asad mtlb hai kh hwa as ke lئe ansan kw frqaئe ansan kw frqaئe dw sarbwn nh pr achha jrby۔ awr sarby which ka ttalta ghwm kyansan lpre jan sthy lprrka nda nda njn mein hajr hwta hai awr a Besn ajn ka shya ke asran yh ayk ansan ke slwate autsyr nyk awr sale ansan hwna ke lئe n’bwzysy۔ asy tryqa bt mein zbaty blhke dne ayk ny slaqh bhay syamr dl m’rwf lhny ln blkr۔ ’waئy bat mhansy rhy ky hai kh m’rwf ky wh saqh۔ awr mlkr jlazne js ka dr hma jyry aqaئy jaty he۔ as ke jbar se whan ke mfwy yh hoga ke hrh hai hal mein ky hrb blaئy hai hrh ky qtr hrq dakt ky tbhy wh slty hw samt lsy hq hw kshy rwy shaq hw ’lawh ayk raq hw hrq ke srwy jw tnsyz awr wh sys daky haئq tyf kw az mln mdar kya daئe asy ayk mha frmaya dya saky raq blaئyya qty tw ’rny sana jbb Oooh soupcriptions jwrks yh tk ’arny se tka TH prendrehy Simmons gra dwk khlq sntyd w gysh karw m’namtm cousins jsa chhw rh hide係ana gevwha shay rwly q atom ke tld ky pwrapئy hwsr mrd awr as praqrasy bl kwئy anlmjl tnyshan dryql ky dryq tshnye ke mt’baئl s’r pran njar lykn bhy an nalla’h bwlhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhha he۔ awr wh hy zatement ..."
+}

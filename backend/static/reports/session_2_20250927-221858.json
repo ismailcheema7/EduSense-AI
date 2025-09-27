@@ -1,0 +1,324 @@
+{
+  "session_id": 2,
+  "classroom_id": 1,
+  "generated_at": "2025-09-27T22:18:58.191534",
+  "metrics": {
+    "duration_sec": 261,
+    "teaching_sec": 260,
+    "qna_sec": 0,
+    "interactive_sec": 0,
+    "time_wasted_sec": 3
+  },
+  "scores": {
+    "interactivity_score": 0.0
+  },
+  "topics": [
+    "The Nature of Reality",
+    "Humanity and Society",
+    "Knowledge and Understanding",
+    "Personal Growth and Spirituality",
+    "Justice and Morality"
+  ],
+  "topic_explanations": {
+    "english": "The transcript touches upon deep philosophical concepts, exploring the essence of reality, the complexities of human behavior and societal structures, the pursuit of knowledge, the journey of personal spiritual development, and the principles of justice and morality.",
+    "roman": "Transcript mein gehre falsafi tasawwurat par bat ki gayi hai, jis mein haqeeqat ka anser, insani rawaiye aur samaji dhashtoon ki paicheedgi, ilm ki talash, shakhsi rohani tarraqi ka safar, aur insaf aur akhlaq ke usool shamil hain."
+  },
+  "summary": {
+    "english": "The discussion delves into profound philosophical questions about the nature of reality and existence. It contemplates the complexities of human nature, societal interactions, and the pursuit of knowledge. The speakers also touch upon personal spiritual growth, the importance of ethical considerations, and the concept of justice, suggesting a continuous journey towards understanding and betterment.",
+    "roman": "Guftagu haqeeqat aur wajood ki tabyat ke baray mein gehri falsafi sawalat mein jati hai. Yeh insani tabyat, samaji takhlqati, aur ilm ki talash ki paicheedgi par soch vichar karti hai. Bolnay walay shakhsi rohani tarraqi, akhlaqi ghaur ki ahmiyat, aur insaf ke tasawwur par bhi baat karte hain, behtar samajh aur behtari ki taraf jatari safar ki taraf ishara karte hain."
+  },
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.36,
+      "text": "کے عسکی ہے تو پر ذراہ ایک نگانے باگ ذر دعل لے ناکا ہے"
+    },
+    {
+      "start": 5.72,
+      "end": 8.52,
+      "text": "آگے برنے سے طبلا، توفید ہوگا"
+    },
+    {
+      "start": 8.72,
+      "end": 14.14,
+      "text": "فسفہ لے تو سرات اگل حق کی اتلاحی طرق ببرا ہوں کا بھی جے"
+    },
+    {
+      "start": 14.36,
+      "end": 18.08,
+      "text": "نبجے طوال کی مسیجت سے براہ ہے"
+    },
+    {
+      "start": 19.52,
+      "end": 23.44,
+      "text": "اور مسیجت میں بھی تاقید سامفوم مدوزے"
+    },
+    {
+      "start": 24.42,
+      "end": 25.72,
+      "text": "کوئی باگ"
+    },
+    {
+      "start": 26.18,
+      "end": 29.76,
+      "text": "ناکہ حالاً داز میں خرصہی تلتے کے ساہتے"
+    },
+    {
+      "start": 30.26,
+      "end": 32.8,
+      "text": "ان کا حائی شرد مدقہ کری جائے"
+    },
+    {
+      "start": 32.8,
+      "end": 36.42,
+      "text": "کوارہ کے زبان میں وہ سے مصیر سے قابیت کی دائیڈا ہے۔"
+    },
+    {
+      "start": 36.42,
+      "end": 39.7,
+      "text": "کیجب یہ نفسا؟"
+    },
+    {
+      "start": 40.2,
+      "end": 42.88,
+      "text": "مادہ کا فاول سے حائیہ تواتی۔"
+    },
+    {
+      "start": 43.88,
+      "end": 47.56,
+      "text": "پر اس نے مریجت مفہل پہتا ہوا بغال رکا ہے۔"
+    },
+    {
+      "start": 47.96,
+      "end": 50.88,
+      "text": "جانی یہ عمل مری ایکتمان کے ساتھ"
+    },
+    {
+      "start": 51.0,
+      "end": 54.02,
+      "text": "پر اسید جب اپل ساتھ مفلوبے تھے۔"
+    },
+    {
+      "start": 54.84,
+      "end": 57.72,
+      "text": "اور ایک تر ایک مریجت مردو دلالی جریب"
+    },
+    {
+      "start": 58.44,
+      "end": 61.04,
+      "text": "کہ باہم اس عمل کا داری رہنا"
+    },
+    {
+      "start": 61.04,
+      "end": 70.54,
+      "text": "کچھی دیسے دیکھ مان دیچھے مائی اکلیے نابوزی اکھے اُس کے شرہ کا ایک دوس کے خبتی بسی اکھتے رہے۔"
+    },
+    {
+      "start": 70.54,
+      "end": 74.54,
+      "text": "کچھ دوس کے خیر کی بھلائی کی بات کرتے رہے۔"
+    },
+    {
+      "start": 74.54,
+      "end": 80.54,
+      "text": "کچھی کھلہ نبجہ حقی بہت جامے ہیں، نتکی استقام لقیع دیہ چکا رہے۔"
+    },
+    {
+      "start": 80.54,
+      "end": 84.54,
+      "text": "حر وہ چیس کے دو اپلن مسلم بہت ہے۔"
+    },
+    {
+      "start": 84.54,
+      "end": 87.54,
+      "text": "حر وہ چیس کے دو اکلات رہے گو حقے۔"
+    },
+    {
+      "start": 87.54,
+      "end": 92.04,
+      "text": "حر وہ چیس کے دو با مکلاد ہوناتی جا ہے ایک رہے۔"
+    },
+    {
+      "start": 92.04,
+      "end": 95.54,
+      "text": "اسی طریق کے سر حر وہ چیس کے دو باقے ایو،"
+    },
+    {
+      "start": 95.54,
+      "end": 99.54,
+      "text": "جزا رہے لبحنی نابو وہ بھی اکلت۔"
+    },
+    {
+      "start": 99.54,
+      "end": 104.54,
+      "text": "اسی اٹر معا کی جضجا طمار پھی مناقلب ہو منتحای گو حقیت اور مکتےہا ہے۔"
+    },
+    {
+      "start": 104.54,
+      "end": 108.54,
+      "text": "کچھے تھی تھی چھوٹی ہم بھی کچھوں سے لیکر۔"
+    },
+    {
+      "start": 108.54,
+      "end": 111.54,
+      "text": "اور چھوٹی سے چھوٹی ہوگوں سے لیکر۔"
+    },
+    {
+      "start": 111.54,
+      "end": 118.04,
+      "text": "اس سے لے کاروں مقارتی آتین سری انسقی تسیانی لہا ہی لہا ہی لہا"
+    },
+    {
+      "start": 118.04,
+      "end": 127.56,
+      "text": "اور ایل سکوہ لہا ہی لہا انسقی تبری انسقی نشروی شات انسقائی لہا ہی تراق"
+    },
+    {
+      "start": 127.56,
+      "end": 137.0,
+      "text": "اس طرح بھی حق مشامل اس کے بعد امارت بلطہہ مقابق بسے انظل میں جو دو طرح جانے سبقائے تھا"
+    },
+    {
+      "start": 137.0,
+      "end": 145.7,
+      "text": "آئے جب اس کے آئیر میں وجہ کردیا گیا کہ یہ تمارت کی دلحق اس شاہن کے ساتل وطلوب ہے"
+    },
+    {
+      "start": 145.7,
+      "end": 150.06,
+      "text": "کہ خاص اس انظل میں انسان کو فپروا تاکہ تضونا پارے"
+    },
+    {
+      "start": 150.06,
+      "end": 152.9,
+      "text": "خاصیس معنے ستی پھر داستر نہیں پارے"
+    },
+    {
+      "start": 152.9,
+      "end": 159.2,
+      "text": "اور خاصہ جانتا تاکا ہوئے تی انسان نفرد جانتے لہا تی لی پر رکھا لی جان مجاہ جودا ہے"
+    },
+    {
+      "start": 159.2,
+      "end": 163.5,
+      "text": "اور اپنی جانتا ہگیا کہ سراہے حق مٹھےش کردے"
+    },
+    {
+      "start": 163.5,
+      "end": 170.9,
+      "text": "یہ ایک انسان کے صلواتے اُتصہتی اور نیک اور سانہ انسانہوں نے کے لئے نعبوزیسی."
+    },
+    {
+      "start": 170.9,
+      "end": 179.0,
+      "text": "کیس رہ سبت میں زباتی بلاح کے دلن میں ایک نئی اسلہ کاملے آئی سیامر دل معروف لہنی لونکر"
+    },
+    {
+      "start": 179.0,
+      "end": 184.5,
+      "text": "اور مع یہ بعد میانسی رہتی ہے کہ معروف کی وہ ساکر۔"
+    },
+    {
+      "start": 184.5,
+      "end": 190.5,
+      "text": "اور مونکر جلاظ میں جس کا ذر ہے کہ ہم ایک حما جیری اصائی جاتی ہے"
+    },
+    {
+      "start": 190.5,
+      "end": 197.0,
+      "text": "اس کے جماز سے وہاں کے مفو یہ وہ گا کہ ہر خرح ہے حل میں کی حرب علائی ہے"
+    },
+    {
+      "start": 197.0,
+      "end": 202.5,
+      "text": "حرح کی قطر حرق داکت کی تبھی وہ سلتی ہو سامت ہونا سی حق ہو"
+    },
+    {
+      "start": 202.5,
+      "end": 207.5,
+      "text": "کسی روی شاق ہو علاو میں ایک راق ہو حرق کے سروی جو تنسیز"
+    },
+    {
+      "start": 208.5,
+      "end": 213.5,
+      "text": "اور وہ سی جس داکی حی پتی ب کوئی زمان میں بردار کی اڑائے"
+    },
+    {
+      "start": 213.5,
+      "end": 216.5,
+      "text": "اسی ایک ایک انا پر مائے دیا ساکی راق بلائییا"
+    },
+    {
+      "start": 216.5,
+      "end": 222.5,
+      "text": "ساکتیں یہ صنہا اور وہ مرگ الماوز،گا جلون کر مقل آنا معفابق"
+    },
+    {
+      "start": 222.5,
+      "end": 232.9,
+      "text": "ان جalities ساکنڈنہا家millimeter ملوں م ere اکسی تรہہا بہی اور گرای چیس"
+    },
+    {
+      "start": 232.9,
+      "end": 240.1,
+      "text": "لقد اين راض بای کے سامان ایک ایک مbikeس gruesی میں پتراع کرو کہ ہم ایک الحیس چیس"
+    },
+    {
+      "start": 240.1,
+      "end": 243.7,
+      "text": "ایک چٹوپی س graveyard ج impacto، خلیہاں شيت ہے Orlando آپ جس anniversary någraاہی بشری classified want"
+    },
+    {
+      "start": 243.7,
+      "end": 248.62,
+      "text": "اور اس طرح قراتی براقی براقی براقی براقی ملنجل کنی شان دریقا دریقا دریقا دریقا دریقا"
+    },
+    {
+      "start": 248.62,
+      "end": 253.9,
+      "text": "کیسنیے کے مفعبا ہے الکار دی پراقا لیکر بین للالہا بولہا"
+    },
+    {
+      "start": 253.9,
+      "end": 259.6,
+      "text": "مجھے سمر کامل حب سرح ساتی نبطبان املتا آلاحا ہے"
+    },
+    {
+      "start": 259.6,
+      "end": 262.6,
+      "text": "اور وہ ہی زاچل مہتے ہیں"
+    }
+  ],
+  "windows": [
+    {
+      "start": 0,
+      "end": 88,
+      "text_urdu": "کے عسکی ہے تو پر ذراہ ایک نگانے باگ ذر دعل لے ناکا ہے آگے برنے سے طبلا، توفید ہوگا فسفہ لے تو سرات اگل حق کی اتلاحی طرق ببرا ہوں کا بھی جے نبجے طوال کی مسیجت سے براہ ہے اور مسیجت میں بھی تاقید سامفوم مدوزے کوئی باگ ناکہ حالاً داز میں خرصہی تلتے کے ساہتے ان کا حائی شرد مدقہ کری جائے کوارہ کے زبان میں وہ سے مصیر سے قابیت کی دائیڈا ہے۔ کیجب یہ نفسا؟ مادہ کا فاول سے حائیہ تواتی۔ پر اس نے مریجت مفہل پہتا ہوا بغال رکا ہے۔ جانی یہ عمل مری ایکتمان کے ساتھ پر اسید جب اپل ساتھ مفلوبے تھے۔ اور ایک تر ایک مریجت مردو دلالی جریب کہ باہم اس عمل کا داری رہنا کچھی دیسے دیکھ مان دیچھے مائی اکلیے نابوزی اکھے اُس کے شرہ کا ایک دوس کے خبتی بسی اکھتے رہے۔ کچھ دوس کے خیر کی بھلائی کی بات کرتے رہے۔ کچھی کھلہ نبجہ حقی بہت جامے ہیں، نتکی استقام لقیع دیہ چکا رہے۔ حر وہ چیس کے دو اپلن مسلم بہت ہے۔ حر وہ چیس کے دو اکلات رہے گو حقے۔",
+      "text_roman": "ke ’sky hai tw pr zrah ayk ngane bag zr d’l le naka hai aage brne se tbla، twfyd hoga fsfh le tw srat agl hq ky atlahy trq bbra hoon ka bhy je nbje twal ky msyjt se brah hai awr msyjt mein bhy taqyd samfwm mdwze kwئy bag nakh halaan daz mein khrshy tlte ke sahte an ka haئy shrd mdqh kry jaئe kwarh ke zban mein wh se msyr se qabyt ky daئyda he۔ kyjb yh nfsa؟ madh ka fawl se haئyh twaty۔ pr as ne mryjt mfhl phta hwa bghal rka he۔ jany yh ’ml mry ayktman ke sath pr asyd jb apl sath mflwbe the۔ awr ayk tr ayk mryjt mrdw dlaly jryb kh bahm as ’ml ka dary rhna kchhy dyse dykh man dychhe maئy aklye nabwzy akhe aus ke shrh ka ayk dws ke khbty bsy akhte rhe۔ kchh dws ke khyr ky bhlaئy ky bat krte rhe۔ kchhy khlh nbjh hqy bht jame hyn، ntky astqam lqy’ dyh chka rhe۔ hr wh chys ke dw apln mslm bht he۔ hr wh chys ke dw aklat rhe gw hqe۔",
+      "label": "LECTURE"
+    },
+    {
+      "start": 88,
+      "end": 171,
+      "text_urdu": "حر وہ چیس کے دو با مکلاد ہوناتی جا ہے ایک رہے۔ اسی طریق کے سر حر وہ چیس کے دو باقے ایو، جزا رہے لبحنی نابو وہ بھی اکلت۔ اسی اٹر معا کی جضجا طمار پھی مناقلب ہو منتحای گو حقیت اور مکتےہا ہے۔ کچھے تھی تھی چھوٹی ہم بھی کچھوں سے لیکر۔ اور چھوٹی سے چھوٹی ہوگوں سے لیکر۔ اس سے لے کاروں مقارتی آتین سری انسقی تسیانی لہا ہی لہا ہی لہا اور ایل سکوہ لہا ہی لہا انسقی تبری انسقی نشروی شات انسقائی لہا ہی تراق اس طرح بھی حق مشامل اس کے بعد امارت بلطہہ مقابق بسے انظل میں جو دو طرح جانے سبقائے تھا آئے جب اس کے آئیر میں وجہ کردیا گیا کہ یہ تمارت کی دلحق اس شاہن کے ساتل وطلوب ہے کہ خاص اس انظل میں انسان کو فپروا تاکہ تضونا پارے خاصیس معنے ستی پھر داستر نہیں پارے اور خاصہ جانتا تاکا ہوئے تی انسان نفرد جانتے لہا تی لی پر رکھا لی جان مجاہ جودا ہے اور اپنی جانتا ہگیا کہ سراہے حق مٹھےش کردے یہ ایک انسان کے صلواتے اُتصہتی اور نیک اور سانہ انسانہوں نے کے لئے نعبوزیسی.",
+      "text_roman": "hr wh chys ke dw ba mklad hwnaty ja hai ayk rhe۔ asy tryq ke sr hr wh chys ke dw baqe ayw، jza rhe lbhny nabw wh bhy aklt۔ asy atr m’a ky jzja tmar phy mnaqlb hw mnthay gw hqyt awr mkteha he۔ kchhe thi thy chhwty hum bhy kchhwn se lykr۔ awr chhwty se chhwty hwgwn se lykr۔ as se le karwn mqarty aatyn sry ansqy tsyany lha hy lha hy lha awr ayl skwh lha hy lha ansqy tbry ansqy nshrwy shat ansqaئy lha hy traq as trh bhy hq mshaml as ke b’d amart blthh mqabq bse anzl mein jw dw trh jane sbqaئe tha aaئe jb as ke aaئyr mein wjh krdya gya kh yh tmart ky dlhq as shahn ke satl wtlwb hai kh khas as anzl mein ansan kw fprwa takh tzwna pare khasys m’ne sty phr dastr nahi pare awr khash janta taka hwئe ty ansan nfrd jante lha ty ly pr rkha ly jan mjah jwda hai awr apny janta hgya kh srahe hq mthesh krde yh ayk ansan ke slwate autshty awr nyk awr sanh ansanhwn ne ke lئe n’bwzysy.",
+      "label": "LECTURE"
+    },
+    {
+      "start": 171,
+      "end": 260,
+      "text_urdu": "کیس رہ سبت میں زباتی بلاح کے دلن میں ایک نئی اسلہ کاملے آئی سیامر دل معروف لہنی لونکر اور مع یہ بعد میانسی رہتی ہے کہ معروف کی وہ ساکر۔ اور مونکر جلاظ میں جس کا ذر ہے کہ ہم ایک حما جیری اصائی جاتی ہے اس کے جماز سے وہاں کے مفو یہ وہ گا کہ ہر خرح ہے حل میں کی حرب علائی ہے حرح کی قطر حرق داکت کی تبھی وہ سلتی ہو سامت ہونا سی حق ہو کسی روی شاق ہو علاو میں ایک راق ہو حرق کے سروی جو تنسیز اور وہ سی جس داکی حی پتی ب کوئی زمان میں بردار کی اڑائے اسی ایک ایک انا پر مائے دیا ساکی راق بلائییا ساکتیں یہ صنہا اور وہ مرگ الماوز،گا جلون کر مقل آنا معفابق ان جalities ساکنڈنہا家millimeter ملوں م ere اکسی تรہہا بہی اور گرای چیس لقد اين راض بای کے سامان ایک ایک مbikeس gruesی میں پتراع کرو کہ ہم ایک الحیس چیس ایک چٹوپی س graveyard ج impacto، خلیہاں شيت ہے Orlando آپ جس anniversary någraاہی بشری classified want اور اس طرح قراتی براقی براقی براقی براقی ملنجل کنی شان دریقا دریقا دریقا دریقا دریقا کیسنیے کے مفعبا ہے الکار دی پراقا لیکر بین للالہا بولہا مجھے سمر کامل حب سرح ساتی نبطبان املتا آلاحا ہے",
+      "text_roman": "kys rh sbt mein zbaty blah ke dln mein ayk nئy aslh kamle aaئy syamr dl m’rwf lhny lwnkr awr m’ yh b’d myansy rhty hai kh m’rwf ky wh sakr۔ awr mwnkr jlaz mein js ka zr hai kh hum ayk hma jyry asaئy jaty hai as ke jmaz se whan ke mfw yh wh ga kh hr khrh hai hl mein ky hrb ’laئy hai hrh ky qtr hrq dakt ky tbhy wh slty hw samt hwna sy hq hw ksy rwy shaq hw ’law mein ayk raq hw hrq ke srwy jw tnsyz awr wh sy js daky hy pty b kwئy zman mein brdar ky araئe asy ayk ayk ana pr maئe dya saky raq blaئyya saktyn yh snha awr wh mrg almawz،ga jlwn kr mql aana m’fabq an jalities sakndnha家millimeter mlwn m ere aksy tรhha bhy awr gray chys lqd aيn raz bay ke saman ayk ayk mbikes gruesy mein ptra’ krw kh hum ayk alhys chys ayk chtwpy s graveyard j impacto، khlyhan shيt hai Orlando aap js anniversary någraahy bshry classified want awr as trh qraty braqy braqy braqy braqy mlnjl kny shan dryqa dryqa dryqa dryqa dryqa kysnye ke mf’ba hai alkar dy praqa lykr byn llalha bwlha mjhe smr kaml hb srh saty nbtban amlta aalaha hai",
+      "label": "LECTURE"
+    },
+    {
+      "start": 260,
+      "end": 263,
+      "text_urdu": "اور وہ ہی زاچل مہتے ہیں",
+      "text_roman": "awr wh hy zachl mhte hain",
+      "label": "OFF_TOPIC"
+    }
+  ],
+  "text_urdu": "کے عسکی ہے تو پر ذراہ ایک نگانے باگ ذر دعل لے ناکا ہے آگے برنے سے طبلا، توفید ہوگا فسفہ لے تو سرات اگل حق کی اتلاحی طرق ببرا ہوں کا بھی جے نبجے طوال کی مسیجت سے براہ ہے اور مسیجت میں بھی تاقید سامفوم مدوزے کوئی باگ ناکہ حالاً داز میں خرصہی تلتے کے ساہتے ان کا حائی شرد مدقہ کری جائے کوارہ کے زبان میں وہ سے مصیر سے قابیت کی دائیڈا ہے۔ کیجب یہ نفسا؟ مادہ کا فاول سے حائیہ تواتی۔ پر اس نے مریجت مفہل پہتا ہوا بغال رکا ہے۔ جانی یہ عمل مری ایکتمان کے ساتھ پر اسید جب اپل ساتھ مفلوبے تھے۔ اور ایک تر ایک مریجت مردو دلالی جریب کہ باہم اس عمل کا داری رہنا کچھی دیسے دیکھ مان دیچھے مائی اکلیے نابوزی اکھے اُس کے شرہ کا ایک دوس کے خبتی بسی اکھتے رہے۔ کچھ دوس کے خیر کی بھلائی کی بات کرتے رہے۔ کچھی کھلہ نبجہ حقی بہت جامے ہیں، نتکی استقام لقیع دیہ چکا رہے۔ حر وہ چیس کے دو اپلن مسلم بہت ہے۔ حر وہ چیس کے دو اکلات رہے گو حقے۔ حر وہ چیس کے دو با مکلاد ہوناتی جا ہے ایک رہے۔ اسی طریق کے سر حر وہ چیس کے دو باقے ایو، جزا رہے لبحنی نابو وہ بھی اکلت۔ اسی اٹر معا کی جضجا طمار پھی مناقلب ہو منتحای گو حقیت اور مکتےہا ہے۔ کچھے تھی تھی چھوٹی ہم بھی کچھوں سے لیکر۔ اور چھوٹی سے چھوٹی ہوگوں سے لیکر۔ اس سے لے کاروں مقارتی آتین سری انسقی تسیانی لہا ہی لہا ہی لہا اور ایل سکوہ لہا ہی لہا انسقی تبری انسقی نشروی شات انسقائی لہا ہی تراق اس طرح بھی حق مشامل اس کے بعد امارت بلطہہ مقابق بسے انظل میں جو دو طرح جانے سبقائے تھا آئے جب اس کے آئیر میں وجہ کردیا گیا کہ یہ تمارت کی دلحق اس شاہن کے ساتل وطلوب ہے کہ خاص اس انظل میں انسان کو فپروا تاکہ تضونا پارے خاصیس معنے ستی پھر داستر نہیں پارے اور خاصہ جانتا تاکا ہوئے تی انسان نفرد جانتے لہا تی لی پر رکھا لی جان مجاہ جودا ہے اور اپنی جانتا ہگیا کہ سراہے حق مٹھےش کردے یہ ایک انسان کے صلواتے اُتصہتی اور نیک اور سانہ انسانہوں نے کے لئے نعبوزیسی. کیس رہ سبت میں زباتی بلاح کے دلن میں ایک نئی اسلہ کاملے آئی سیامر دل معروف لہنی لونکر اور مع یہ بعد میانسی رہتی ہے کہ معروف کی وہ ساکر۔ اور مونکر جلاظ میں جس کا ذر ہے کہ ہم ایک حما جیری اصائی جاتی ہے اس کے جماز سے وہاں کے مفو یہ وہ گا کہ ہر خرح ہے حل میں کی حرب علائی ہے حرح کی قطر حرق داکت کی تبھی وہ سلتی ہو سامت ہونا سی حق ہو کسی روی شاق ہو علاو میں ایک راق ہو حرق کے سروی جو تنسیز اور وہ سی جس داکی حی پتی ب کوئی زمان میں بردار کی اڑائے اسی ایک ایک انا پر مائے دیا ساکی راق بلائییا ساکتیں یہ صنہا اور وہ مرگ الماوز،گا جلون کر مقل آنا معفابق ان جalities ساکنڈنہا家millimeter ملوں م ere اکسی تรہہا بہی اور گرای چیس لقد اين راض بای کے سامان ایک ایک مbikeس gruesی میں پتراع کرو کہ ہم ایک الحیس چیس ایک چٹوپی س graveyard ج impacto، خلیہاں شيت ہے Orlando آپ جس anniversary någraاہی بشری classified want اور اس طرح قراتی براقی براقی براقی براقی ملنجل کنی شان دریقا دریقا دریقا دریقا دریقا کیسنیے کے مفعبا ہے الکار دی پراقا لیکر بین للالہا بولہا مجھے سمر کامل حب سرح ساتی نبطبان املتا آلاحا ہے اور وہ ہی زاچل مہتے ہیں",
+  "text_roman": "ke ’sky hai tw pr zrah ayk ngane bag zr d’l le naka hai aage brne se tbla، twfyd hoga fsfh le tw srat agl hq ky atlahy trq bbra hoon ka bhy je nbje twal ky msyjt se brah hai awr msyjt mein bhy taqyd samfwm mdwze kwئy bag nakh halaan daz mein khrshy tlte ke sahte an ka haئy shrd mdqh kry jaئe kwarh ke zban mein wh se msyr se qabyt ky daئyda he۔ kyjb yh nfsa؟ madh ka fawl se haئyh twaty۔ pr as ne mryjt mfhl phta hwa bghal rka he۔ jany yh ’ml mry ayktman ke sath pr asyd jb apl sath mflwbe the۔ awr ayk tr ayk mryjt mrdw dlaly jryb kh bahm as ’ml ka dary rhna kchhy dyse dykh man dychhe maئy aklye nabwzy akhe aus ke shrh ka ayk dws ke khbty bsy akhte rhe۔ kchh dws ke khyr ky bhlaئy ky bat krte rhe۔ kchhy khlh nbjh hqy bht jame hyn، ntky astqam lqy’ dyh chka rhe۔ hr wh chys ke dw apln mslm bht he۔ hr wh chys ke dw aklat rhe gw hqe۔ hr wh chys ke dw ba mklad hwnaty ja hai ayk rhe۔ asy tryq ke sr hr wh chys ke dw baqe ayw، jza rhe lbhny nabw wh bhy aklt۔ asy atr m’a ky jzja tmar phy mnaqlb hw mnthay gw hqyt awr mkteha he۔ kchhe thi thy chhwty hum bhy kchhwn se lykr۔ awr chhwty se chhwty hwgwn se lykr۔ as se le karwn mqarty aatyn sry ansqy tsyany lha hy lha hy lha awr ayl skwh lha hy lha ansqy tbry ansqy nshrwy shat ansqaئy lha hy traq as trh bhy hq mshaml as ke b’d amart blthh mqabq bse anzl mein jw dw trh jane sbqaئe tha aaئe jb as ke aaئyr mein wjh krdya gya kh yh tmart ky dlhq as shahn ke satl wtlwb hai kh khas as anzl mein ansan kw fprwa takh tzwna pare khasys m’ne sty phr dastr nahi pare awr khash janta taka hwئe ty ansan nfrd jante lha ty ly pr rkha ly jan mjah jwda hai awr apny janta hgya kh srahe hq mthesh krde yh ayk ansan ke slwate autshty awr nyk awr sanh ansanhwn ne ke lئe n’bwzysy. kys rh sbt mein zbaty blah ke dln mein ayk nئy aslh kamle aaئy syamr dl m’rwf lhny lwnkr awr m’ yh b’d myansy rhty hai kh m’rwf ky wh sakr۔ awr mwnkr jlaz mein js ka zr hai kh hum ayk hma jyry asaئy jaty hai as ke jmaz se whan ke mfw yh wh ga kh hr khrh hai hl mein ky hrb ’laئy hai hrh ky qtr hrq dakt ky tbhy wh slty hw samt hwna sy hq hw ksy rwy shaq hw ’law mein ayk raq hw hrq ke srwy jw tnsyz awr wh sy js daky hy pty b kwئy zman mein brdar ky araئe asy ayk ayk ana pr maئe dya saky raq blaئyya saktyn yh snha awr wh mrg almawz،ga jlwn kr mql aana m’fabq an jalities sakndnha家millimeter mlwn m ere aksy tรhha bhy awr gray chys lqd aيn raz bay ke saman ayk ayk mbikes gruesy mein ptra’ krw kh hum ayk alhys chys ayk chtwpy s graveyard j impacto، khlyhan shيt hai Orlando aap js anniversary någraahy bshry classified want awr as trh qraty braqy braqy braqy braqy mlnjl kny shan dryqa dryqa dryqa dryqa dryqa kysnye ke mf’ba hai alkar dy praqa lykr byn llalha bwlha mjhe smr kaml hb srh saty nbtban amlta aalaha hai awr wh hy zachl mhte hain"
+}

@@ -30,6 +30,10 @@ from passlib.context import CryptContext
 # If you don't want PDFs yet, you can comment reportlab parts and the pdf generation call.
 from reportlab.lib.pagesizes import A4
 from reportlab.pdfgen import canvas
+from reportlab.lib import colors
+from reportlab.graphics.shapes import Drawing
+from reportlab.graphics.charts.piecharts import Pie
+from reportlab.graphics import renderPDF
 from orch import run_analysis
 
 # ==============================
@@ -510,25 +514,60 @@ async def upload_audio(file: UploadFile = File(...), current: User = Depends(get
 # This simulates analysis: it writes a JSON file and a small PDF with a pie-like summary.
 # Replace this with your real pipeline later.
 
-def _write_pdf_report(pdf_path: Path, title: str, stats: dict[str, int | float]) -> None:
-    """Create a minimal PDF using reportlab with key stats."""
-    c = canvas.Canvas(str(pdf_path), pagesize=A4)
-    width, height = A4
+from reportlab.lib.pagesizes import A4
+from reportlab.pdfgen import canvas
+from reportlab.lib import colors
+from reportlab.graphics.shapes import Drawing
+from reportlab.graphics.charts.piecharts import Pie
+from reportlab.graphics import renderPDF
 
-    # Title
-    c.setFont("Helvetica-Bold", 18)
-    c.drawString(72, height - 72, title)
+def _write_pdf_report(path, title: str, stats: dict):
+    """
+    stats keys:
+      interactivity_score, duration_sec, time_wasted_sec, interactive_sec, qna_sec, teaching_sec
+    """
+    c = canvas.Canvas(str(path), pagesize=A4)
+    W, H = A4
 
-    # Body text
-    c.setFont("Helvetica", 12)
-    y = height - 110
-    for k, v in stats.items():
-        c.drawString(72, y, f"{k.replace('_', ' ').title()}: {v}")
-        y -= 20
+    # Header
+    c.setFont("Helvetica-Bold", 16)
+    c.drawString(40, H - 50, title)
 
-    # Simple legend area (not a real pie chart—kept minimal for the stub)
-    c.setFont("Helvetica-Oblique", 10)
-    c.drawString(72, y - 10, "Note: Replace this stub with a real chart later.")
+    c.setFont("Helvetica", 10)
+    c.drawString(40, H - 70, f"Interactivity Score: {stats.get('interactivity_score', 0)}")
+    c.drawString(40, H - 85, f"Duration: {round((stats.get('duration_sec',0))/60)} min")
+    c.drawString(40, H - 100, f"Teaching: {round(stats.get('teaching_sec',0)/60)} min")
+    c.drawString(40, H - 115, f"Interactive: {round(stats.get('interactive_sec',0)/60)} min")
+    c.drawString(40, H - 130, f"Q&A: {round(stats.get('qna_sec',0)/60)} min")
+    c.drawString(40, H - 145, f"Wasted: {round(stats.get('time_wasted_sec',0)/60)} min")
+
+    # Pie data
+    data = [
+        stats.get("teaching_sec", 0),
+        stats.get("interactive_sec", 0),
+        stats.get("qna_sec", 0),
+        stats.get("time_wasted_sec", 0),
+    ]
+    labels = ["Teaching", "Interactive", "Q&A", "Wasted"]
+
+    # Pie chart
+    d = Drawing(300, 200)
+    pie = Pie()
+    pie.x = 60
+    pie.y = 10
+    pie.width = 180
+    pie.height = 180
+    pie.data = data
+    pie.labels = [f"{l} ({int(v/60)}m)" for l, v in zip(labels, data)]
+    pie.simpleLabels = True
+    pie.slices.strokeWidth = 0.5
+    pie.slices[0].fillColor = colors.HexColor("#4f46e5")  # Teaching
+    pie.slices[1].fillColor = colors.HexColor("#60a5fa")  # Interactive
+    pie.slices[2].fillColor = colors.HexColor("#22c55e")  # Q&A
+    pie.slices[3].fillColor = colors.HexColor("#f59e0b")  # Wasted
+    d.add(pie)
+    renderPDF.draw(d, c, 300, H - 260)
+
     c.showPage()
     c.save()
 

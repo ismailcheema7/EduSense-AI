@@ -85,6 +85,13 @@ export function getToken() {
   return storage.token;
 }
 
+export async function fetchReportJSON(url: string) {
+  const res = await fetch(url);
+  if (!res.ok) throw new ApiError(`Failed to fetch report JSON`, res.status);
+  return res.json();
+}
+
+
 // classes
 export async function listClasses() {
   return http<Classroom[]>(`/api/classes`);
@@ -118,9 +125,31 @@ export async function createSession(classId: number, audio_url: string) {
 export async function deleteSession(sessionId: number) {
   return http(`/api/sessions/${sessionId}`, { method: "DELETE" });
 }
-export async function analyzeSession(sessionId: number) {
-  return http(`/api/sessions/${sessionId}/analyze`, { method: "POST" });
+// api.ts
+export type AnalyzeResponse = {
+  report_json_url: string;
+  report_pdf_url: string;
+};
+
+export async function analyzeSession(sessionId: number): Promise<AnalyzeResponse> {
+  const res = (await http(`/api/sessions/${sessionId}/analyze`, {
+    method: "POST",
+  })) as { data: AnalyzeResponse };
+
+  return res.data;
 }
+
+// api.ts
+export const API_BASE =
+  (import.meta.env.VITE_API_URL as string | undefined)?.replace(/\/$/, "") ||
+  "http://127.0.0.1:8000"; // dev default
+
+export function toBackend(url: string) {
+  if (!url) return url;
+  // Absolute? keep it. Relative? prefix backend base.
+  return url.startsWith("http") ? url : `${API_BASE}${url.startsWith("/") ? "" : "/"}${url}`;
+}
+
 
 export async function uploadAudio(file: File) {
   const form = new FormData();

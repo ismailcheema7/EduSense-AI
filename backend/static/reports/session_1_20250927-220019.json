@@ -1,0 +1,48 @@
+{
+  "session_id": 1,
+  "classroom_id": 1,
+  "generated_at": "2025-09-27T22:00:19.504656",
+  "metrics": {
+    "duration_sec": 364,
+    "teaching_sec": 0,
+    "qna_sec": 0,
+    "interactive_sec": 0,
+    "time_wasted_sec": 2
+  },
+  "scores": {
+    "interactivity_score": 0.0
+  },
+  "topics": [
+    "Classroom Rules",
+    "Student Participation",
+    "Academic Support",
+    "Time Management",
+    "Behavioral Expectations"
+  ],
+  "topic_explanations": {
+    "english": "The conversation revolves around establishing and reinforcing classroom expectations for behavior and participation, with a focus on ensuring students understand and follow the rules to create a conducive learning environment.  The teacher also addresses individual student needs and encourages active engagement in lessons.",
+    "roman": "Guftagu classroom ki umeedon ko qaim karne aur mazboot karne ke gird ghoomti hai, ta'aleemi mahol bananay ke liye taleba ki shirkat aur sulook par tawajjah markooz hai. Teacher taleba ki mkhsoos zarooriyat ko bhi dekhay ga aur sabaq mein nashir istehqaq ko barhawa dain ga."
+  },
+  "summary": {
+    "english": "The transcript captures a classroom interaction where the teacher is setting expectations for student behavior and participation. They emphasize the importance of rules, encourage active engagement, and offer support to ensure all students can learn effectively. The teacher also addresses individual concerns and aims to foster a positive learning environment.",
+    "roman": "Transcript mein classroom ka woh ta'awun darj hai jahan teacher taleba ke sulook aur shirkat ke liye umeedon ko qaim kar rahi hai. Woh nishaniyon ki ahmiyat par zor deti hain, nashir istehqaq ko barhawa deti hain, aur tamam taleba ko asar-andaz tareeqay se seekhnay mein madad karne ki koshish karti hain. Teacher khasusiyat ke masail ko bhi dekhti hain aur aik musbat taleemi mahol ko farogh dainay ka irada rakhti hain."
+  },
+  "segments": [
+    {
+      "start": 233.87,
+      "end": 235.87,
+      "text": "رو چوپہ کے مہتے ہیں"
+    }
+  ],
+  "windows": [
+    {
+      "start": 234,
+      "end": 236,
+      "text_urdu": "رو چوپہ کے مہتے ہیں",
+      "text_roman": "rw chwph ke mhte hain",
+      "label": "OFF_TOPIC"
+    }
+  ],
+  "text_urdu": "رو چوپہ کے مہتے ہیں",
+  "text_roman": "rw chwph ke mhte hain"
+}
