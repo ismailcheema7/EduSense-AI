@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useLocation, useNavigate, Link } from "react-router-dom";
 import { Button, Card, Input, Label } from "../ui";
-import { login } from "../api";
+import { login, humanizeError } from "../api";
 import { useToast } from "../ui";
 
 
@@ -22,7 +22,7 @@ await login(email, password);
 toast.push({ title: "Welcome back", kind: "success" });
 nav(loc.state?.from?.pathname || "/");
 } catch (err: any) {
-toast.push({ title: err.message || "Login failed", kind: "error" });
+toast.push({ title: humanizeError(err), kind: "error" });
 } finally {
 setLoading(false);
 }

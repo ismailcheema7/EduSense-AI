@@ -1,7 +1,14 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Button, Card, EmptyState, Input, Label } from "../ui";
-import { Classroom, createClass, listClasses, renameClass, deleteClass } from "../api";
+import {
+  Classroom,
+  createClass,
+  listClasses,
+  renameClass,
+  deleteClass,
+  humanizeError,
+} from "../api";
 import { useToast } from "../ui";
 
 export default function Dashboard() {
@@ -28,7 +35,7 @@ export default function Dashboard() {
       toast.push({ title: "Class created", kind: "success" });
       await refresh();
     } catch (e: any) {
-      toast.push({ title: e.message || "Could not create class", kind: "error" });
+      toast.push({ title: humanizeError(e), kind: "error" });
     } finally {
       setLoading(false);
     }
@@ -45,9 +52,10 @@ export default function Dashboard() {
               onChange={(e) => setName(e.target.value)}
               placeholder="e.g., 10th Grade Physics"
             />
-            <Button onClick={createNew} loading={loading}>
+            <Button onClick={createNew} loading={loading} disabled={!name.trim()}>
               Add
             </Button>
+
           </div>
         </div>
       </div>

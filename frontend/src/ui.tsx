@@ -103,12 +103,17 @@ export function Toaster({ children }: { children: React.ReactNode }) {
   return (
     <ToastCtx.Provider value={api}>
       {children}
-      <div className="fixed right-4 top-4 z-50 flex w-80 flex-col gap-2">
+      <div
+        className="fixed right-4 top-4 z-50 flex w-80 flex-col gap-2"
+        role="region"
+        aria-live="polite"
+        aria-label="Notifications"
+      >
         {list.map((t) => (
           <div
             key={t.id}
             className={clsx(
-              "rounded-xl2 border p-3 shadow-soft",
+              "flex items-start gap-2 rounded-xl2 border p-3 shadow-soft text-sm",
               t.kind === "error"
                 ? "border-red-200 bg-red-50 text-red-800"
                 : t.kind === "success"
@@ -116,7 +121,8 @@ export function Toaster({ children }: { children: React.ReactNode }) {
                 : "border-slate-200 bg-white text-slate-800"
             )}
           >
-            {t.title}
+            <span aria-hidden className="mt-0.5 inline-block h-4 w-4 rounded-full bg-current opacity-70" />
+            <div className="flex-1">{t.title}</div>
           </div>
         ))}
       </div>

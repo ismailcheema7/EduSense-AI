@@ -8,7 +8,9 @@ import {
   listSessions,
   uploadAudio,
   SessionRow,
+  humanizeError
 } from "../api";
+
 import { useToast } from "../ui";
 
 export default function ClassDetail() {
@@ -40,7 +42,7 @@ export default function ClassDetail() {
       await refresh();
       await doAnalyze(s.id);
     } catch (e: any) {
-      toast.push({ title: e.message || "Upload failed", kind: "error" });
+      toast.push({ title: humanizeError(e), kind: "error" });
     } finally {
       setUploading(false);
       setCreating(false);
@@ -53,7 +55,7 @@ export default function ClassDetail() {
       toast.push({ title: "Analysis complete", kind: "success" });
       await refresh();
     } catch (e: any) {
-      toast.push({ title: e.message || "Analysis failed", kind: "error" });
+      toast.push({ title: humanizeError(e), kind: "error" });
     }
   }
 
