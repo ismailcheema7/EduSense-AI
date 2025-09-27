@@ -1,0 +1,13 @@
+{
+  "session_id": 1,
+  "classroom_id": 3,
+  "generated_at": "2025-09-27T03:02:29.825558",
+  "interactivity_score": 58.1,
+  "duration_sec": 2715,
+  "breakdown": {
+    "time_wasted_sec": 310,
+    "interactive_sec": 734,
+    "qna_sec": 492,
+    "teaching_sec": 1179
+  }
+}
